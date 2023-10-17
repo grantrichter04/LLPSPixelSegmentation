@@ -289,7 +289,7 @@ function nucclassifiers(Img) {
 	close("MASK_Nuc");
 	selectWindow("CloseLabels");
 	rename("MASK_Nuc");
-	run("Erode", "stack");
+	
 }
 
 
